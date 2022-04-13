@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.my-classselector{
+   text-align: center;
+    color:black;
+}
+.myButton1{
+    
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    width: 50px;
+    height: 50px;
+    
+    
+    
+}
+.myButton2{
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+}
+
+
+p{
+    text-align: center;
+    align-items: center;
+    
+}
+.table1{
+        width: 65%; 
+        margin-left:20%; 
+        margin-right:20%;
+        text-align: center;
+}   
+.my-idselector{
+ 
+   color: blue;
+}
+.test {
+    color:red;
+}
