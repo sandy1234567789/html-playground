@@ -1,41 +1,53 @@
+
 <!DOCTYPE html>
 <html>
    <head>
       <title>HTML Playground</title>
-      <h1>HTML Playground</h1><br><br>
+      <link rel="stylesheet" href="index.css">
+      
    </head>
 <body>
+   <h1 class="my-classselector">HTML Playground</h1><br><br>
    <p>This webpage will show some different HTML elements</p>
-   <div>
-   <input type="button"value="Button1">
-   <input type="button"value="Button2"><br><br>
-   <h2>Inputs</h2>
-   <input type="text"id="TextInput"placeholder="Text Input" >
-   <input type="password"id="Password"placeholder="Password Input"><br>
-    <h2>Anchor</h2>
-    <a href="https://www.google.com/">click me to go to Google</a>  
-    <h2>Table</h2>
-    <table>
+   <h2 class="my-classselector">Buttons</h2>
+   <div style = "text-align:center">
+   <input type="button"value="Button1"class="myButton1"><br><br>
+   <input type="button"value="Button2"class="myButton2"><br><br>
+    </div>
+   <h2 class="my-classselector">Inputs</h2>
+   <div style="text-align: center;">   
+   <input type="text"id="TextInput"placeholder="Text Input"><br><br>
+   <input type="password"id="Password"placeholder="Password Input">   
+   </div>   
+      <h2 class="my-classselector">Anchor</h2>
+   
+    <div style="text-align:center">
+    <a href="https://www.google.com/">click me to go to Google</a>
+   </div>  
+    <h2 class="my-classselector">Table</h2>
+    <table class="table1">
       <tr> 
       <th>Table Header1</th>
        <th>Table Header2</th>
       </tr>
-      <tr>
+      <tr>  
        <td>Value1</td>
        <td>Value2</td>
       </tr>
       </table>
-    <h2>Spans</h2>
-    <p>hi<span style="color: blue">12</span></p>
-    <p>hi<span style="color:orange">24</span></style></span>
+    <h2 style="text-align: center">Spans</h2>
+    <p>hi<span class="test" >12</span></p>
+    <p>hi<span class="test">24</span></style></span>
+   <div style="text-align: center;">
     <h2>Nested Element</h2>
-    <input type="button" value="A button that goes to Google"onclick="#c4">
+    <input type="button" value="A button that goes to Google" class="myButton1" onclick="location.href='https://www.google.com/'">
     <p>Hello World! I am <span style="color:red">John</span></p>  
-</div>
+   <h3 id="c4">Thank you for searching me and welcome to Google</h3>
+   </div>
 
 
 
-<h3 id="c4">Thank you for searching me and welcome to Google</h3>
+
 
 </body>
       
